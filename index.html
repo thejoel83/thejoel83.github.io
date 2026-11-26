@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Joel Soto Hidalgo, Python backend developer in Armenia, Colombia. Experience, public projects, and contact information.">
+  <title>Joel Soto Hidalgo | Python Backend Developer</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f4f7fb; color: #182638; font: 1rem/1.65 system-ui, sans-serif; }
+    .wrap { width: min(68rem, calc(100% - 2.5rem)); margin-inline: auto; }
+    header { background: #0d1e34; color: #f1f7ff; }
+    nav { display: flex; flex-wrap: wrap; gap: .6rem 1.5rem; padding-block: 1.2rem; border-bottom: 1px solid #385069; }
+    nav a, header a { color: #9af0da; }
+    .intro { padding-block: clamp(2.5rem, 8vw, 5rem); max-width: 44rem; }
+    .eyebrow { color: #9af0da; font-weight: 650; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { font-size: clamp(2.5rem, 8vw, 5rem); line-height: 1.05; letter-spacing: -.05em; margin-bottom: .75rem; }
+    h2 { font-size: 1.7rem; line-height: 1.2; }
+    h3 { font-size: 1.12rem; margin-bottom: .4rem; }
+    .links { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; }
+    a { color: #075c68; text-underline-offset: .2em; }
+    :focus-visible { outline: 3px solid #d07900; outline-offset: 4px; }
+    main { padding-block: 2.75rem; }
+    section + section { margin-top: 2.75rem; }
+    .panel, article { background: white; border: 1px solid #d4dfec; border-radius: .75rem; padding: 1.3rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: 1rem; }
+    .panel > :last-child, article > :last-child { margin-bottom: 0; }
+    .meta { color: #435975; }
+    ul { padding-left: 1.3rem; }
+    li + li { margin-top: .35rem; }
+    footer { background: #0d1e34; color: #f1f7ff; padding-block: 2rem; }
+    footer a { color: #9af0da; }
+    @media print { nav, .links { display: none; } body, header, footer { background: white; color: black; } .eyebrow, footer a { color: #182638; } .intro { padding-block: 1rem; } section + section { margin-top: 1.3rem; } article { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav aria-label="CV sections">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="intro">
+        <p class="eyebrow">Python Backend Developer · Armenia, Colombia</p>
+        <h1>Joel Soto Hidalgo</h1>
+        <p>I build APIs, internal tools, and automation with Python, FastAPI, and PostgreSQL. At Wise Servicios, I work on system integrations, legacy PHP migrations, and Docker-based deployments.</p>
+        <div class="links">
+          <a href="https://github.com/thejoel83">GitHub</a>
+          <a href="https://www.linkedin.com/in/joel-soto-a0b993443/">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="panel">
+        <h3>System Engineer · Wise Servicios</h3>
+        <p class="meta">May 2023–Present · Remote</p>
+        <ul>
+          <li>Build FastAPI services that integrate internal systems and use PostgreSQL and MySQL for data storage.</li>
+          <li>Migrate PHP services to Python, including authentication, token handling, and data management.</li>
+          <li>Write unit and integration tests and standardize deployments with Docker and Docker Compose.</li>
+          <li>Build Python tools for AWS S3 transfers, data consolidation, and recurring Excel tasks.</li>
+        </ul>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Selected projects</h2>
+      <div class="grid">
+        <article>
+          <h3><a href="https://github.com/thejoel83/whatsapp-python-chatbot">WhatsApp Python Chatbot</a></h3>
+          <p>A WhatsApp chatbot built with Python, Gemini, and WasenderAPI.</p>
+        </article>
+        <article>
+          <h3><a href="https://github.com/thejoel83/Py-Automation-Scripts">Python Automation Scripts</a></h3>
+          <p>A collection of Python scripts for automating everyday tasks.</p>
+        </article>
+        <article>
+          <h3><a href="https://github.com/thejoel83/Automatized-Prototype-to-Save-Waste">Smart Waste Prototype</a></h3>
+          <p>An IoT prototype for automating waste storage. I worked on the Node-RED workflow, database, and hardware programming.</p>
+        </article>
+      </div>
+      <p class="meta">These projects were originally shared under my former GitHub account, <a href="https://github.com/RackBoy">RackBoy</a>.</p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="panel">
+        <ul>
+          <li><strong>Backend and automation</strong> · Python, FastAPI, API integrations, Bash</li>
+          <li><strong>Databases</strong> · PostgreSQL, MySQL, MongoDB</li>
+          <li><strong>Deployment and testing</strong> · Docker, Docker Compose, Linux, AWS, Git, unit and integration testing</li>
+        </ul>
+      </div>
+    </section>
+    <section id="education">
+      <h2>Education and languages</h2>
+      <div class="panel">
+        <ul>
+          <li><strong>Universidad San José</strong> · Undergraduate studies in Systems Engineering, 2024–2026</li>
+          <li><strong>Universidad del Quindío</strong> · Undergraduate studies in Electronic Engineering, 2019–2023</li>
+          <li><strong>Universidad del Quindío</strong> · Electronics Instrumentation Technology, 2015–2018</li>
+        </ul>
+        <p>Spanish (native) · English (B2)</p>
+      </div>
+    </section>
+  </main>
+  <footer id="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <a href="https://www.linkedin.com/in/joel-soto-a0b993443/">Contact me on LinkedIn</a>
+    </div>
+  </footer>
+</body>
+</html>
